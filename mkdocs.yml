@@ -1,0 +1,29 @@
+site_name: Networking Fundamentals
+theme: 
+  name: material
+  palette: 
+    
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for dark mode
+    
+plugins: 
+  - search:
+      enabled: true
+  - blog
+
+extra_css:
+  - stylesheets/extra.css
